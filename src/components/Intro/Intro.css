@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap');
+
+.introContainer {
+    margin: 20px;
+    height: 400px;
+    width: 300px;
+}
+
+.introContainer__header {
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.introContainer__header > h3 {
+    font-family: 'Prompt', sans-serif;
+    font-size: large;
+    margin: 0%;
+}
+
+.introContainer__header > h1 {
+    font-family: 'Bungee', cursive;
+    font-size: x-large;
+    margin: 0%;
+}
+
+.pointer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 30px;
+}
+
+.point {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.point > h1 {
+    font-family: 'Kanit', sans-serif;
+    font-size: large;
+}

@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 100px;
+}
+
+.app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    flex-wrap: wrap;
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.container__left {
+    flex: 0.5 !important;
+}
+
+.container__right {
+    flex: 0.5 !important;
+}

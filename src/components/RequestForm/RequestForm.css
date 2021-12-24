@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap');
+
+.formContainer {
+    margin: 20px;
+    height: 400px;
+    width: 300px;
+    background: #FAFAFA;
+    border: 5px solid #CDDEFF;
+    border-radius: 6px;
+    box-shadow: 8px 8px 15px 1px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 8px 8px 15px 1px rgba(0,0,0,0.3);
+    -moz-box-shadow: 8px 8px 15px 1px rgba(0,0,0,0.3);
+}
+
+.formContainer__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.header {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: small;
+}
+
+.icon {
+    height: 20px !important;
+    width: 20px !important;
+}
+
+.formContainer__form {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    margin-top: 20px;
+}
+
+.formContainer__url > input{
+    border: 2px solid #D5D5D5;
+    background-color: #FAFAFA;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    color: #2D46B9;
+    border-radius: 15px;
+    outline: none;
+    height: 50px;
+    width: 250px;
+}
+
+.formContainer__url > input:focus{
+    border: 2px solid #06FF00;
+    border-radius: 14px;
+    outline: none;
+}
+
+.formContainer__form > button {
+    margin-top: 30px;
+    padding: 12px 50px;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-weight: bold;
+    color: #FAFAFA;
+    background-color: #38A3A5;
+    border-radius: 9px;
+    border: none;
+}
+
+.formContainer__form > button:hover {
+    background-color: #22577A;
+}
+
+.loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.output {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    justify-content: space-around;
+}
+
+.shortUrlBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.shortUrlBox > p {
+    margin-right: 5px;
+    font-family: 'Cairo', sans-serif;
+}
+
+.shortUrlBox > input {
+    margin-left: 5px;
+    border: 2px solid #D5D5D5;
+    border-radius: 8px;
+    outline: none;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+}
+
+.shortUrlBox > input:focus {
+    border: 2px solid #3E00FF;
+    outline: none;
+}
+
+.errorBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.errorBox > p {
+    margin-right: 5px;
+    font-family: 'Cairo', sans-serif;
+}
+
+.errorBox > input {
+    margin-left: 5px;
+    border: 2px solid #D5D5D5;
+    border-radius: 8px;
+    outline: none;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    color: tomato;
+}
+

@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header > h1 {
+    margin: 0%;
+    margin-left: 20px;
+    font-size: xx-large;
+    font-family: 'Bungee', cursive;
+    color: #082032;
+}
+
+.avatar {
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.avatar > a {
+    margin: 10px;
+}
+
+.git {
+    height: 2em !important;
+    width: 2em !important;
+}
